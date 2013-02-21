@@ -86,8 +86,8 @@
 				D3F3C2B316CC9A6900195C0D /* MDTAppDelegate.h */,
 				D3F3C2B416CC9A6900195C0D /* MDTAppDelegate.m */,
 				D3F3C2BC16CC9A6900195C0D /* MainStoryboard.storyboard */,
-				D3F3C2BF16CC9A6900195C0D /* MDTViewController.h */,
 				D3F3C2C016CC9A6900195C0D /* MDTViewController.m */,
+				D3F3C2BF16CC9A6900195C0D /* MDTViewController.h */,
 				D3F3C2AB16CC9A6900195C0D /* Supporting Files */,
 			);
 			path = IPhoneHelloWorld;
@@ -267,6 +267,7 @@
 				GCC_PREFIX_HEADER = "IPhoneHelloWorld/IPhoneHelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "IPhoneHelloWorld/IPhoneHelloWorld-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -278,6 +279,7 @@
 				GCC_PREFIX_HEADER = "IPhoneHelloWorld/IPhoneHelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "IPhoneHelloWorld/IPhoneHelloWorld-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

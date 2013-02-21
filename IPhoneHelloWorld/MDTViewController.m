@@ -9,10 +9,16 @@
 #import "MDTViewController.h"
 
 @interface MDTViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *Label;
+@property (weak, nonatomic) IBOutlet UITextField *Text;
 
 @end
 
 @implementation MDTViewController
+- (IBAction)buttonClick:(id)sender {
+    
+    self.Label.text = self.Text.text;
+}
 
 - (void)viewDidLoad
 {
